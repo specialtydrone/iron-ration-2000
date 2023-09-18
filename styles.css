@@ -1,0 +1,20 @@
+body {
+    font-family: 'MainSite';
+    background-color: 0A1C29;
+    color: rgb(136, 160, 220);
+}
+
+.menuButton {
+    font-size: 18;
+    font-family: 'ButtonFont';
+}
+
+@font-face {
+    font-family: 'MainSite';
+    src: url('fonts/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'ButtonFont';
+    src: url('fonts/OpenSans-Medium.ttf') format('truetype');
+}
