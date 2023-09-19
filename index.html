@@ -1,39 +1,21 @@
 <html>
     <head>
-        <title>Jonathan Lynch's Cool Site</title>
+        <title>Jonathan Lynch's Web Zone</title>
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <center>
-            <h1><img src="images\disk.gif">Jonathan Lynch's Cool Site<img src="images\disk.gif"></h1>
-            <hr>
+            <img src="images\disk.gif">
+            <h1 class="bottomBorder">Jonathan Lynch's Web Zone</h1>
             <button id="musicButton" class="menuButton" onclick="playMIDI()">Crank the tunes!</button>
             <a href="https://google.com" target="_blank"><button id="cvButton" class="menuButton">CV 📄</button></a>
             <a href="https://google.com" target="_blank"><button  class="menuButton">Portfolio 💾</button></a>
-            <p>This site is cool!</p>
         </center>
+        <br>
+        <h1>About<hr></h1>
+        <p>I'm a writer by trade and a hobbybist programmer interested in procedural generation in game development.</p>
+        
         
     </body>
-    <script>
-        var musicButton = document.getElementById('musicButton');
-        var cvButton = document.getElementById('cvButton');
-        musicButton.innerText= "Music ❌";
-        cvButton.innerText= "Resume 📄";
-        let playing = false;
-        let songAudio = null;
-        
-        function playMIDI() {
-            if (songAudio){
-                songAudio.pause();
-                songAudio = null;
-                
-                musicButton.innerText = "Music ❌";
-                return;
-            }
-            songAudio = new Audio('passport.m4a');
-            songAudio.loop = true;
-            songAudio.play();
-            musicButton.innerText= "Music "+" \u{1F50A}";
-        }
-    </script>
+    <script src="script.js"></script>
 </html>

@@ -1,12 +1,25 @@
 body {
-    font-family: 'MainSite';
-    background-color: 0A1C29;
-    color: rgb(136, 160, 220);
+    font-family: 'HackFont';
+    background-color: #F5F5F0;
+    color: rgb(0, 0, 0);
+}
+
+html {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'HackBold';
 }
 
 .menuButton {
     font-size: 18;
     font-family: 'ButtonFont';
+}
+
+.bottomBorder {
+    border-bottom: 0px solid black;
 }
 
 @font-face {
@@ -17,4 +30,14 @@ body {
 @font-face {
     font-family: 'ButtonFont';
     src: url('fonts/OpenSans-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'HackFont';
+    src: url('fonts/Hack-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'HackBold';
+    src: url('fonts/Hack-Bold.ttf') format('truetype');
 }
