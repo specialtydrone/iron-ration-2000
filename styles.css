@@ -10,16 +10,33 @@ html {
 }
 
 h1 {
-    font-family: 'HackBold';
+    font-family: 'HackFont';
 }
 
 .menuButton {
-    font-size: 18;
+    font-size: 1.25em;
     font-family: 'ButtonFont';
 }
 
 .bottomBorder {
     border-bottom: 0px solid black;
+}
+
+.twoCol {
+    display: flex;
+}
+
+.halfCol {
+    width: 50%;
+}
+
+p {
+    margin-top: 0px;
+}
+
+.centered-image {
+    display: flex;
+    justify-content: center;
 }
 
 @font-face {
