@@ -1,23 +1,30 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8">
         <title>Jonathan Lynch's Web Zone</title>
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <center>
-            <img src="images\disk.gif">
-            <h1 class="bottomBorder">Jonathan Lynch's Web Zone</h1>
-            
-            <a href="https://sites.google.com/view/jonlynchportfolio/home" target="_blank"><button  id="portButton" class="menuButton">Portfolio</button></a>
-            <button id="musicButton" class="menuButton" onclick="playMIDI()">Crank the tunes!</button>
-        </center>
-        <br>
+        <header class="site-header">
+            <h1><a href="/">JONATHAN LYNCH'S WEBSITE</a></h1>
+            <nav>
+                <a href="/index.html">HOME</a>
+                <a href="mailto:jonathan@ironrationmedia.com">CONTACT</a>
+            </nav>
+        </header>
         <section>
             <h1>About<hr></h1>
             <p>I'm a technology-focused writer and content producer by trade as well as a hobbybist programmer interested in procedural generation in game development.</p>
             <p>This site is a repository for my various side projects, writing, and pursuits beyond my day job.</p>
             
+        </section>
+
+        <section>
+            <h1>Writing<hr></h1>
+            <ul>
+                <li>2024-08-08 &mdash; <a href="articles/4000-holes-in-the-desert/index.html">4,000 Holes in the Desert</a></li>
+            </ul>
         </section>
     </body>
     <script src="script.js"></script>

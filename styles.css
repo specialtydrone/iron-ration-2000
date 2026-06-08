@@ -58,3 +58,61 @@ p {
     font-family: 'HackBold';
     src: url('fonts/Hack-Bold.ttf') format('truetype');
 }
+.site-header {
+    margin-bottom: 2em;
+    border-bottom: 1px solid #000;
+    padding-bottom: 0.75em;
+}
+
+.site-header h1 {
+    margin-bottom: 0.25em;
+    font-size: 1.5em;
+}
+
+.site-header h1 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.site-header nav a {
+    margin-right: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.site-header {
+    text-align: center;
+    border-bottom: none;
+}
+
+.site-header h1 {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #000;
+}
+
+.site-header nav {
+    margin-top: 0.5rem;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+.article-date {
+    font-size: 0.85em;
+    opacity: 0.7;
+    margin-bottom: 0.25rem;
+}
+
+h1.title {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #E7E8EF;
+}
