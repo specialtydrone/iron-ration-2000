@@ -125,11 +125,13 @@ img {
 
 .writing-entry {
     display: flex;
+    font-size: 1em;
 }
 
 .writing-date {
     width: 11em;
     flex-shrink: 0;
+    opacity: 0.75;
 }
 
 a {
