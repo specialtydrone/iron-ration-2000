@@ -116,3 +116,32 @@ hr {
     height: 1px;
     background-color: #E7E8EF;
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 1px black solid;
+}
+
+.writing-entry {
+    display: flex;
+}
+
+.writing-date {
+    width: 11em;
+    flex-shrink: 0;
+}
+
+a {
+    color: #CFAF6A;
+}
+
+a:visited {
+    color: #A98A4F;
+}
+
+.writing-list {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+}
