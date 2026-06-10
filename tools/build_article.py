@@ -75,8 +75,10 @@ def build(article_dir):
     )
 
     html = html_path.read_text(encoding="utf-8")
+
     site_header = HEADER_PATH.read_text(encoding="utf-8")
     from datetime import datetime
+
 
     footer = (
         ROOT / "templates" / "site-footer.html"
@@ -86,6 +88,13 @@ def build(article_dir):
         "{{YEAR}}",
         str(datetime.now().year)
     )
+
+    html = html.replace(
+        "</head>",
+        '  <link rel="icon" href="../../images/favicon.svg" type="image/svg+xml" />\n</head>',
+        1,
+    )
+
 
     html = html.replace("<body>", "<body>\n" + site_header, 1)
 
@@ -104,12 +113,20 @@ def build(article_dir):
     html = html.replace(f"<p><strong>{title}</strong></p>", "", 1)
 
     # Headings to div headers
-    # Headings to div headers
     html = re.sub(
         r"<h[23][^>]*>(.*?)</h[23]>",
         r'<div class="article-header">\1</div>',
         html,
         flags=re.S
+    )
+
+    # Footnotes
+    html = re.sub(
+        r'(<section[^>]*class="[^"]*footnotes[^"]*"[^>]*>\s*)<hr\s*/?>',
+        r'\1<div class="article-header">Footnotes</div>',
+        html,
+        count=1,
+        flags=re.S,
     )
 
     # Footer
@@ -118,6 +135,7 @@ def build(article_dir):
         footer + "\n</body>",
         1
     )
+
 
     html_path.write_text(html, encoding="utf-8")
     print(f"Built {html_path}")

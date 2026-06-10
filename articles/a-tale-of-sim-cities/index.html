@@ -25,6 +25,7 @@
     .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="../../styles.css" />
+  <link rel="icon" href="../../images/favicon.svg" type="image/svg+xml" />
 </head>
 <body>
         <header class="site-header">
@@ -41,6 +42,7 @@
 <h1 class="title">A Tale of Sim Cities</h1>
 <hr>
 </header>
+<p><img src="media/hex-sc2-map.png" /></p>
 <p><em>It was the best of times, it was the worst of times. It was a
 time of AI-powered revolutions and of an imminent employment apocalypse
 for creatives and information workers. It was a time of sorrow on Sunday
@@ -57,26 +59,27 @@ experienced firsthand what it’s like to build something leveraging Star
 Trek-level AI and I’ve got some thoughts about how its wider adoption is
 playing out.</p>
 <p>If any of this interests you, read on.</p>
-<img
-src="https://media.licdn.com/dms/image/v2/D4E12AQFI0sSkfsr3tQ/article-inline_image-shrink_1500_2232/article-inline_image-shrink_1500_2232/0/1679349026943?e=1782345600&amp;v=beta&amp;t=gnb1Gs5s5W3_SZxiVF9_ulh7tiYarpbWKuOTpnrdwW4"
-data-media-urn="urn:li:digitalmediaAsset:D4E12AQFI0sSkfsr3tQ"
-alt="No alt text provided for this image" />
-<figcaption>
-The test city I threw together for the project.
-</figcaption>
-<div class="article-header"><strong>Project Thesis</strong></div>
+<figure>
+<img src="media/sc2-native-map.png"
+alt="The test city I threw together for the project." />
+<figcaption aria-hidden="true">The test city I threw together for the
+project.</figcaption>
+</figure>
+<div class="article-header">Project Thesis</div>
 <p>The vintage works of Will Wright and his game studio Maxis (<a
 href="https://www.theverge.com/2015/3/4/8149827/ea-closing-maxis-emeryville">rest
 in peace</a>) captivated me as a child: SimCity 2000, SimTower, SimAnt,
-SimFarm, SimIsle, etc¹. While not pushing any kind of visual boundaries
-at the time compared to something like Doom, Maxis’ catalog of
-simulations transformed my feeble Compaq PC into a device to manage
-skyscrapers, ant colonies, and pixelated cities.</p>
+SimFarm, SimIsle, etc<a href="#fn1" class="footnote-ref" id="fnref1"
+role="doc-noteref"><sup>1</sup></a>. While not pushing any kind of
+visual boundaries at the time compared to something like Doom, Maxis’
+catalog of simulations transformed my feeble Compaq PC into a device to
+manage skyscrapers, ant colonies, and pixelated cities.</p>
 <p>It was SimCity 2000’s detailed maps that captured my imagination. I
 wanted to walk around those streets I’d allocated so much of my city’s
 budget to maintain or sail a ship through the bustling seaport I’d
 developed. Maxis ultimately tried and failed to develop games to fill
-this niche².</p>
+this niche<a href="#fn2" class="footnote-ref" id="fnref2"
+role="doc-noteref"><sup>2</sup></a>.</p>
 <p>No, I wanted to create something that, if made today, would occupy
 the <a
 href="https://www.salon.com/2017/11/11/a-brief-history-of-the-walking-simulator-gamings-most-detested-genre/">walking
@@ -105,14 +108,13 @@ href="https://github.com/dfloer">Dale Floer</a>.</p>
 wanted the satisfaction of implementing my own solution from scratch in
 Python. Floer’s documentation, on the other hand, was omnipresent for
 the entirety of the project. It quickly became my Rosetta Stone.</p>
-<img
-src="https://media.licdn.com/dms/image/v2/D4E12AQEZXBYNLSKDbg/article-inline_image-shrink_1500_2232/article-inline_image-shrink_1500_2232/0/1679349096655?e=1782345600&amp;v=beta&amp;t=oCR7oimnuzrbr6A5fNT2HRfr2_MU1YkGxIxTJKk3Go0"
-data-media-urn="urn:li:digitalmediaAsset:D4E12AQEZXBYNLSKDbg"
-alt="No alt text provided for this image" />
-<figcaption>
-Output from my PNG renderer. You can see vegegation colored by density,
-roads, buildings, and powerlines, as well as water depth.
-</figcaption>
+<figure>
+<img src="media/sc2-image-map.png"
+alt="Output from my PNG renderer. You can see vegegation colored by density, roads, buildings, and powerlines, as well as water depth." />
+<figcaption aria-hidden="true">Output from my PNG renderer. You can see
+vegegation colored by density, roads, buildings, and powerlines, as well
+as water depth.</figcaption>
+</figure>
 <p>After a few hours of poking and prodding at the data, the file format
 came into focus. SC2 files (a flavor of <a
 href="https://en.wikipedia.org/wiki/Interchange_File_Format">Electronic
@@ -130,13 +132,12 @@ href="https://godotengine.org/">Godot</a> and wrote a basic 2D
 visualizer that depicts the city’s features in a PNG image. Not
 groundbreaking by any means, but for four evenings of work in a language
 other than my native C, I’m proud of it.</p>
-<img
-src="https://media.licdn.com/dms/image/v2/D4E12AQEFw7VzHBgVQw/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1679346924675?e=1782345600&amp;v=beta&amp;t=g8sMLNbqM1vSEGfcKfX_IsIK-VAE-Op6-eGNV0Ih544"
-data-media-urn="urn:li:digitalmediaAsset:D4E12AQEFw7VzHBgVQw"
-alt="No alt text provided for this image" />
-<figcaption>
-A smattering of my questions for ChatGPT throughout the development.
-</figcaption>
+<figure>
+<img src="media/jon-chatgpt-questions.png"
+alt="A smattering of my questions for ChatGPT throughout the development." />
+<figcaption aria-hidden="true">A smattering of my questions for ChatGPT
+throughout the development.</figcaption>
+</figure>
 <div class="article-header">My Helpful But Lying
 Assistant</div>
 <p>I’ve explained much of the ‘why’ and ‘how’ of this madcap project,
@@ -149,14 +150,13 @@ be able to with a well-documented file format and clear instructions.
 After straight-up lying to me about the dimensions of a standard SimCity
 2000 map, ChatGPT was relegated to answering my questions about
 new-to-me Python modules and writing 100ish lines of boilerplate code to
-generate a 3D mesh based on the city’s heightmap data³.</p>
-<img
-src="https://media.licdn.com/dms/image/v2/D4E12AQEyDUxGpYt-2w/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1679360712859?e=1782345600&amp;v=beta&amp;t=nX1O3-C6lQhFM4Z6CkZhihA1AllTGniHCE0qFHtc1Eo"
-data-media-urn="urn:li:digitalmediaAsset:D4E12AQEyDUxGpYt-2w"
-alt="No alt text provided for this image" />
-<figcaption>
-Nice try, ChatGPT.
-</figcaption>
+generate a 3D mesh based on the city’s heightmap data<a href="#fn3"
+class="footnote-ref" id="fnref3"
+role="doc-noteref"><sup>3</sup></a>.</p>
+<figure>
+<img src="media/chatgpt-lying.png" alt="Nice try, ChatGPT." />
+<figcaption aria-hidden="true">Nice try, ChatGPT.</figcaption>
+</figure>
 <p>What struck me about working with AI is that it’s simply an
 abbreviated version of most software developers’ workflows:</p>
 <ol type="1">
@@ -176,13 +176,12 @@ Stack Overflow without the <a
 href="https://youtu.be/I_ZK0t9-llo">incredibly toxic community</a>,
 pointless gatekeeping, and soul-crushing pedantry.</p>
 <p>Which brings me to my final thoughts.</p>
-<img
-src="https://media.licdn.com/dms/image/v2/D4E12AQG_lr-eDNxCGw/article-inline_image-shrink_400_744/article-inline_image-shrink_400_744/0/1679352896001?e=1782345600&amp;v=beta&amp;t=vh7eOoIwcjqQS96qI6vTpRj_Ic7iewrkDxdh26Rr0BI"
-data-media-urn="urn:li:digitalmediaAsset:D4E12AQG_lr-eDNxCGw"
-alt="No alt text provided for this image" />
-<figcaption>
-The 3D terrain map with the test city’s water table rendered in Godot.
-</figcaption>
+<figure>
+<img src="media/sc2-spinning-map.gif"
+alt="The 3D terrain map with the test city’s water table rendered in Godot." />
+<figcaption aria-hidden="true">The 3D terrain map with the test city’s
+water table rendered in Godot.</figcaption>
+</figure>
 <div class="article-header">A Reckoning for Careers
 Built on Cruft</div>
 <p>In my <em>A Tale of Two Cities</em>-inspired introduction, I
@@ -232,9 +231,11 @@ in demand. Whether I’m one of those lucky few, I cannot yet say.</p>
 <div class="article-header">A Time of Revolution</div>
 <p>We’re navigating a time of dramatic political upheaval and
 technological revolution, not unlike the French Revolution or the rapid
-industrialization of 19th-century England⁴. As you read this, fortunes
-are being made and lost. Lives and livelihoods have already been
-upended. But humanity has been here before and will be again.</p>
+industrialization of 19th-century England<a href="#fn4"
+class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a>. As
+you read this, fortunes are being made and lost. Lives and livelihoods
+have already been upended. But humanity has been here before and will be
+again.</p>
 <p>The hard reality is that we’re never going back to a time before
 infinite, on-demand content generation. The bell cannot be unrung.
 Regarding the times we find ourselves in, I leave you with the timeless
@@ -243,26 +244,33 @@ words of Samuel L. Jackson in Jurassic Park:</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HKK4KmDlj8U?si=5anXtN6rSKAQFub2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
 </iframe>
 </div>
+<section id="footnotes" class="footnotes footnotes-end-of-document"
+role="doc-endnotes">
 <div class="article-header">Footnotes</div>
-<ol type="1">
-<li>IMO, the canonical Maxis titles are: SimCity, SimEarth, SimAnt,
-SimLife, SimCity 2000, SimHealth, SimFarm, SimTower, SimIsle, SimTown,
-SimCopter, SimGolf, SimPark, SimTunes, Streets of SimCity, SimSafari,
-SimCity 3000, The Sims, and SimCity 4.</li>
-<li>SimCopter and Streets of SimCity attempted to make gameplay out of
-rendering the cities in 3D but they served as little more than static
-backdrops for unremarkable gameplay. Didn’t stop me from putting many
-hours into SimCopter, though.</li>
-<li>If you’ve ever written code for generating meshes on the fly, you
-know how mind-numbing it can be. I was happy to let ChatGPT work its
-code-generating magic while I devised a way to effectively parse the
-save file.</li>
-<li>If you have any interest in understanding how humanity acts in times
-of unprecedented technological innovation and political upheaval, please
-read Eric Hobsbawm’s <a
+<ol>
+<li id="fn1"><p>IMO, the canonical Maxis titles are: SimCity, SimEarth,
+SimAnt, SimLife, SimCity 2000, SimHealth, SimFarm, SimTower, SimIsle,
+SimTown, SimCopter, SimGolf, SimPark, SimTunes, Streets of SimCity,
+SimSafari, SimCity 3000, The Sims, and SimCity 4.<a href="#fnref1"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>SimCopter and Streets of SimCity attempted to make
+gameplay out of rendering the cities in 3D but they served as little
+more than static backdrops for unremarkable gameplay. Didn’t stop me
+from putting many hours into SimCopter, though.<a href="#fnref2"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>If you’ve ever written code for generating meshes on the
+fly, you know how mind-numbing it can be. I was happy to let ChatGPT
+work its code-generating magic while I devised a way to effectively
+parse the save file.<a href="#fnref3" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>If you have any interest in understanding how humanity
+acts in times of unprecedented technological innovation and political
+upheaval, please read Eric Hobsbawm’s <a
 href="https://www.amazon.com/Age-Revolution-1789-1848-Eric-Hobsbawm/dp/0679772537/ref=sr_1_4">excellent
-book</a> on those subjects as he compares and contrasts them.</li>
+book</a> on those subjects as he compares and contrasts them.<a
+href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
+</section>
 <footer class="site-footer">
     <p>© 2026 Jonathan Lynch</p>
 </footer>

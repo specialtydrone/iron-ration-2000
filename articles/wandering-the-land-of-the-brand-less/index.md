@@ -6,6 +6,8 @@ type: linkedin
 source: linkedin
 ---
 
+![Cube farm.](media/cubicle-farm.jpeg)
+
 A long-time friend and fellow marketer of mine recently told me: "You
 have no brand." I'd been lamenting the job market, how poorly timed my
 springtime departure was from my previous gig, and the general

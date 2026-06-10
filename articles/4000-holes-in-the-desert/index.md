@@ -2,13 +2,14 @@
 title: "4,000 Holes in the Desert"
 written: 2024-08-08
 published: 2024-08-08
+source: service credit union intranet
 type: essay
 ---
 
 
 **4,000 Holes in the Desert**
 
-![](media/image1.png){width="7.5in" height="3.4583333333333335in"}
+![Desert golfing.](media/green-desert-golfing.png)
 
 After an agonizing 51 strokes, I sank my 4,000th hole in Desert Golfing.
 With little fanfare, the 4,000th pin disappeared, the screen panned to
@@ -38,8 +39,8 @@ I've been a delinquent practitioner of meditation at best. Still, I
 study Zen in fits and starts and have come to appreciate its principles
 and sayings. My favorite goes something like this:
 
-"Before enlightenment, you will chop wood and carry water. After
-enlightenment, you will chop wood and carry water."
+>"Before enlightenment, you will chop wood and carry water. After
+>enlightenment, you will chop wood and carry water."
 
 I admire the phrase's symmetry and purposeful repetition. Despite my
 basic grasp of Eastern philosophy, I appreciate how elegantly the motto
@@ -70,5 +71,4 @@ like a small victory for my overall mental health. Or put another way:
 "Before enlightenment, you will swipe to get the ball in the hole. After
 enlightenment, you will swipe to get the ball into the hole."
 
-*Desert Golfing is available on iOS, Android, MacOS, and Windows for
-\$1.99-ish.*
+*Desert Golfing is available on iOS, Android, MacOS, and Windows for $1.99-ish.

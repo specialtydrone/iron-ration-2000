@@ -6,6 +6,8 @@ type: linkedin
 source: linkedin
 ---
 
+![](media/head-to-head.jpeg)
+
 In a week or so, my first child will hopefully arrive in this world with
 little drama but much fanfare. A writer by trade, I've already chosen
 what my first words to her will be, though the reality is I already
@@ -22,10 +24,7 @@ lugged an outrageously priced Tandy 1000 RL IBM-clone and a box of
 bootleg floppy disks into our apartment that I fell into a lifelong love
 affair with hyper-niche PC games.
 
- {.slate-resizable-image-embed .slate-image-embed__resize-right}
-![No alt text provided for this
-image](https://media.licdn.com/dms/image/v2/C4D12AQG3CPOvvKVJlQ/article-inline_image-shrink_1500_2232/article-inline_image-shrink_1500_2232/0/1634157172515?e=1782345600&v=beta&t=3JfvLTQ9R1gl5S2wvwBMiqcFM4gvkpAokafq5E4ZUTQ){media-urn="urn:li:digitalmediaAsset:C4D12AQG3CPOvvKVJlQ"}
-
+![The venerable Tandy 1000 RL I grew up with.](media/tandy-1000.jpeg)
 
 People my age typically identify Super Mario as their first formative
 gaming experience. For me, it was staring at a monochrome DOS prompt,
@@ -62,10 +61,7 @@ reunite the country not through violence, but by delivering cargo
 between humanity's disparate enclaves and connecting them to the game's
 equivalent of the internet.
 
- {.slate-resizable-image-embed .slate-image-embed__resize-right}
-![No alt text provided for this
-image](https://media.licdn.com/dms/image/v2/C4D12AQGhWRh1loydFg/article-inline_image-shrink_1500_2232/article-inline_image-shrink_1500_2232/0/1634157633982?e=1782345600&v=beta&t=WseOVJ4Ir_rNtExdmsFI2MB5REGvAdrXDrY0yvxqakw){media-urn="urn:li:digitalmediaAsset:C4D12AQGhWRh1loydFg"}
-
+![](media/touching-baby.jpeg)
 
 Where Grand Theft Auto entices you to commit wanton destruction in its
 lavishly detailed worlds and Fortnite demands you be the last person
@@ -108,10 +104,7 @@ democratic societies, blur the line between fiction and reality, and
 empower tyrannical individuals to rise to power. The past half decade
 has proved Kojima's vision to be prophetic.
 
- {.slate-resizable-image-embed .slate-image-embed__resize-full-width}
-![No alt text provided for this
-image](https://media.licdn.com/dms/image/v2/C4D12AQHqnXbRr3YGgA/article-inline_image-shrink_1500_2232/article-inline_image-shrink_1500_2232/0/1634157946746?e=1782345600&v=beta&t=0fVMo-UZdmORe2vCmRTcRWCnaTKpbIaUfd4RNZQNPPQ){media-urn="urn:li:digitalmediaAsset:C4D12AQHqnXbRr3YGgA"}
-
+![](media/backpack-stack.jpeg)
 
 As my wife rightly points out, when my daughter arrives, the concepts of
 nation states, the Constitution, and even object permanence will be

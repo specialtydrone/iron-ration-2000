@@ -6,6 +6,8 @@ type: linkedin
 source: linkedin
 ---
 
+![](media/hex-sc2-map.png)
+
 *It was the best of times, it was the worst of times. It was a time of
 AI-powered revolutions and of an imminent employment apocalypse for
 creatives and information workers. It was a time of sorrow on Sunday
@@ -25,18 +27,14 @@ is playing out.
 
 If any of this interests you, read on.
 
-<img
-src="https://media.licdn.com/dms/image/v2/D4E12AQFI0sSkfsr3tQ/article-inline_image-shrink_1500_2232/article-inline_image-shrink_1500_2232/0/1679349026943?e=1782345600&amp;v=beta&amp;t=gnb1Gs5s5W3_SZxiVF9_ulh7tiYarpbWKuOTpnrdwW4"
-data-media-urn="urn:li:digitalmediaAsset:D4E12AQFI0sSkfsr3tQ"
-alt="No alt text provided for this image" />
-<figcaption>The test city I threw together for the project.</figcaption>
+![The test city I threw together for the project.](media/sc2-native-map.png)
 
-## **Project Thesis**
+## Project Thesis
 
 The vintage works of Will Wright and his game studio Maxis ([rest in
 peace](https://www.theverge.com/2015/3/4/8149827/ea-closing-maxis-emeryville))
 captivated me as a child: SimCity 2000, SimTower, SimAnt, SimFarm,
-SimIsle, etc¹. While not pushing any kind of visual boundaries at the
+SimIsle, etc[^1]. While not pushing any kind of visual boundaries at the
 time compared to something like Doom, Maxis' catalog of simulations
 transformed my feeble Compaq PC into a device to manage skyscrapers, ant
 colonies, and pixelated cities.
@@ -45,7 +43,7 @@ It was SimCity 2000's detailed maps that captured my imagination. I
 wanted to walk around those streets I'd allocated so much of my city's
 budget to maintain or sail a ship through the bustling seaport I'd
 developed. Maxis ultimately tried and failed to develop games to fill
-this niche².
+this niche[^2].
 
 No, I wanted to create something that, if made today, would occupy the
 [walking simulator
@@ -80,13 +78,9 @@ wanted the satisfaction of implementing my own solution from scratch in
 Python. Floer's documentation, on the other hand, was omnipresent for
 the entirety of the project. It quickly became my Rosetta Stone.
 
-<img
-src="https://media.licdn.com/dms/image/v2/D4E12AQEZXBYNLSKDbg/article-inline_image-shrink_1500_2232/article-inline_image-shrink_1500_2232/0/1679349096655?e=1782345600&amp;v=beta&amp;t=oCR7oimnuzrbr6A5fNT2HRfr2_MU1YkGxIxTJKk3Go0"
-data-media-urn="urn:li:digitalmediaAsset:D4E12AQEZXBYNLSKDbg"
-alt="No alt text provided for this image" />
-<figcaption>Output from my PNG renderer. You can see vegegation colored
+![Output from my PNG renderer. You can see vegegation colored
 by density, roads, buildings, and powerlines, as well as water
-depth.</figcaption>
+depth.](media/sc2-image-map.png)
 
 After a few hours of poking and prodding at the data, the file format
 came into focus. SC2 files (a flavor of [Electronic Arts' proprietary
@@ -108,12 +102,7 @@ visualizer that depicts the city's features in a PNG image. Not
 groundbreaking by any means, but for four evenings of work in a language
 other than my native C, I'm proud of it.
 
-<img
-src="https://media.licdn.com/dms/image/v2/D4E12AQEFw7VzHBgVQw/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1679346924675?e=1782345600&amp;v=beta&amp;t=g8sMLNbqM1vSEGfcKfX_IsIK-VAE-Op6-eGNV0Ih544"
-data-media-urn="urn:li:digitalmediaAsset:D4E12AQEFw7VzHBgVQw"
-alt="No alt text provided for this image" />
-<figcaption>A smattering of my questions for ChatGPT throughout the
-development.</figcaption>
+![A smattering of my questions for ChatGPT throughout the development.](media/jon-chatgpt-questions.png)
 
 ## My Helpful But Lying Assistant
 
@@ -128,13 +117,9 @@ able to with a well-documented file format and clear instructions. After
 straight-up lying to me about the dimensions of a standard SimCity 2000
 map, ChatGPT was relegated to answering my questions about new-to-me
 Python modules and writing 100ish lines of boilerplate code to generate
-a 3D mesh based on the city's heightmap data³.
+a 3D mesh based on the city's heightmap data[^3].
 
-<img
-src="https://media.licdn.com/dms/image/v2/D4E12AQEyDUxGpYt-2w/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1679360712859?e=1782345600&amp;v=beta&amp;t=nX1O3-C6lQhFM4Z6CkZhihA1AllTGniHCE0qFHtc1Eo"
-data-media-urn="urn:li:digitalmediaAsset:D4E12AQEyDUxGpYt-2w"
-alt="No alt text provided for this image" />
-<figcaption>Nice try, ChatGPT.</figcaption>
+![Nice try, ChatGPT.](media/chatgpt-lying.png)
 
 What struck me about working with AI is that it's simply an abbreviated
 version of most software developers' workflows:
@@ -157,12 +142,7 @@ gatekeeping, and soul-crushing pedantry.
 
 Which brings me to my final thoughts.
 
-<img
-src="https://media.licdn.com/dms/image/v2/D4E12AQG_lr-eDNxCGw/article-inline_image-shrink_400_744/article-inline_image-shrink_400_744/0/1679352896001?e=1782345600&amp;v=beta&amp;t=vh7eOoIwcjqQS96qI6vTpRj_Ic7iewrkDxdh26Rr0BI"
-data-media-urn="urn:li:digitalmediaAsset:D4E12AQG_lr-eDNxCGw"
-alt="No alt text provided for this image" />
-<figcaption>The 3D terrain map with the test city's water table rendered
-in Godot.</figcaption>
+![The 3D terrain map with the test city's water table rendered in Godot.](media/sc2-spinning-map.gif)
 
 ## A Reckoning for Careers Built on Cruft
 
@@ -217,7 +197,7 @@ demand. Whether I'm one of those lucky few, I cannot yet say.
 
 We're navigating a time of dramatic political upheaval and technological
 revolution, not unlike the French Revolution or the rapid
-industrialization of 19th-century England⁴. As you read this, fortunes
+industrialization of 19th-century England[^4]. As you read this, fortunes
 are being made and lost. Lives and livelihoods have already been
 upended. But humanity has been here before and will be again.
 
@@ -230,21 +210,19 @@ words of Samuel L. Jackson in Jurassic Park:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HKK4KmDlj8U?si=5anXtN6rSKAQFub2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
-### Footnotes
-
-1.  IMO, the canonical Maxis titles are: SimCity, SimEarth, SimAnt,
+[^1]: IMO, the canonical Maxis titles are: SimCity, SimEarth, SimAnt,
     SimLife, SimCity 2000, SimHealth, SimFarm, SimTower, SimIsle,
     SimTown, SimCopter, SimGolf, SimPark, SimTunes, Streets of SimCity,
     SimSafari, SimCity 3000, The Sims, and SimCity 4.
-2.  SimCopter and Streets of SimCity attempted to make gameplay out of
+[^2]:SimCopter and Streets of SimCity attempted to make gameplay out of
     rendering the cities in 3D but they served as little more than
     static backdrops for unremarkable gameplay. Didn't stop me from
     putting many hours into SimCopter, though.
-3.  If you've ever written code for generating meshes on the fly, you
+[^3]:If you've ever written code for generating meshes on the fly, you
     know how mind-numbing it can be. I was happy to let ChatGPT work its
     code-generating magic while I devised a way to effectively parse the
     save file.
-4.  If you have any interest in understanding how humanity acts in times
+[^4]:If you have any interest in understanding how humanity acts in times
     of unprecedented technological innovation and political upheaval,
     please read Eric Hobsbawm's [excellent
     book](https://www.amazon.com/Age-Revolution-1789-1848-Eric-Hobsbawm/dp/0679772537/ref=sr_1_4)
