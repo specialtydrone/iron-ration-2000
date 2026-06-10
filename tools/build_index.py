@@ -8,6 +8,8 @@ import sys
 ROOT = Path(__file__).resolve().parents[1]
 INDEX = ROOT / "index.html"
 ARTICLES = ROOT / "articles"
+HEADER_PATH = ROOT / "templates" / "site-header.html"
+FOOTER_PATH = ROOT / "templates" / "site-footer.html"
 
 START = "<!-- WRITING-LIST:START -->"
 END = "<!-- WRITING-LIST:END -->"
@@ -15,6 +17,13 @@ END = "<!-- WRITING-LIST:END -->"
 def die(message):
     print(f"ERROR: {message}", file=sys.stderr)
     sys.exit(1)
+
+def read_template(path):
+    if not path.exists():
+        die(f"Missing template: {path}")
+
+    template = path.read_text(encoding="utf-8")
+    return template.replace("{{YEAR}}", str(datetime.now().year))
 
 def parse_front_matter(md_path):
     text = md_path.read_text(encoding="utf-8")
@@ -53,12 +62,10 @@ def collect_articles():
         if not title or not written:
             continue
 
-        slug = md.parent.name
-
         posts.append({
             "title": title,
             "written": written,
-            "slug": slug,
+            "slug": md.parent.name,
         })
 
     return sorted(posts, key=lambda p: p["written"], reverse=True)
@@ -76,6 +83,32 @@ def build_writing_list(posts):
     lines.extend(["            </ul>", f"            {END}"])
     return "\n".join(lines)
 
+def replace_site_header(html):
+    header = read_template(HEADER_PATH)
+
+    pattern = re.compile(
+        r'\s*<header class="site-header">.*?</header>',
+        re.S
+    )
+
+    if pattern.search(html):
+        return pattern.sub("\n" + header, html, count=1)
+
+    return html.replace("<body>", "<body>\n" + header, 1)
+
+def replace_site_footer(html):
+    footer = read_template(FOOTER_PATH)
+
+    pattern = re.compile(
+        r'\s*<footer class="site-footer">.*?</footer>',
+        re.S
+    )
+
+    if pattern.search(html):
+        return pattern.sub("\n" + footer, html, count=1)
+
+    return html.replace("</body>", footer + "\n</body>", 1)
+
 def main():
     if not INDEX.exists():
         die("Missing index.html")
@@ -84,17 +117,14 @@ def main():
     posts = collect_articles()
     writing_list = build_writing_list(posts)
 
+    html = replace_site_header(html)
+    html = replace_site_footer(html)
+
     if START in html and END in html:
         pattern = re.compile(f"{re.escape(START)}.*?{re.escape(END)}", re.S)
         html = pattern.sub(writing_list, html)
     else:
-        old = """            <ul>
-                <li>2024-08-08 &mdash; <a href="articles/4000-holes-in-the-desert/index.html">4,000 Holes in the Desert</a></li>
-            </ul>"""
-        if old not in html:
-            die("Could not find existing Writing list. Add WRITING-LIST markers manually.")
-
-        html = html.replace(old, writing_list)
+        die("Could not find Writing list markers in index.html")
 
     INDEX.write_text(html, encoding="utf-8")
     print(f"Updated {INDEX} with {len(posts)} article(s)")

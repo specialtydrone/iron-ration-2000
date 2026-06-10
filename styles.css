@@ -1,16 +1,19 @@
 body {
-    font-family: 'HackFont';
+    font-family: 'DejaVuSans';
     background-color: #22242A;
     color: #E7E8EF;
+    font-size: 16px;
 }
 
 html {
     max-width: 900px;
+    min-width: 650px;
     margin: 0 auto;
 }
 
 h1 {
-    font-family: 'HackFont';
+    font-family: 'DejaVuSansBold';
+    font-size: 1.65rem;
 }
 
 .menuButton {
@@ -57,6 +60,16 @@ p {
 @font-face {
     font-family: 'HackBold';
     src: url('fonts/Hack-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'DejaVuSans';
+    src: url('fonts/DejaVuSansMono.woff2') format('truetype');
+}
+
+@font-face {
+    font-family: 'DejaVuSansBold';
+    src: url('fonts/DejaVuSansMono-Bold.woff2') format('truetype');
 }
 .site-header {
     margin-bottom: 2em;
@@ -120,7 +133,7 @@ hr {
 img {
     max-width: 100%;
     height: auto;
-    border: 1px black solid;
+    border: 1px solid #5B6270;
 }
 
 .writing-entry {
@@ -135,10 +148,12 @@ img {
 }
 
 a {
+    font-family: 'DejaVuSansBold';
     color: #CFAF6A;
 }
 
 a:visited {
+    font-family: 'DejaVuSansBold';
     color: #A98A4F;
 }
 
@@ -146,4 +161,60 @@ a:visited {
     list-style: none;
     padding-left: 0;
     margin-left: 0;
+}
+
+blockquote {
+    border-left: 4px solid #CFAF6A;
+    padding: 0.75rem 1rem;
+    margin: 1.5rem 0;
+    background-color: #2B2E36;
+    font-style: italic;
+    opacity: 0.9;
+}
+
+blockquote p:last-child {
+    margin-bottom: 0;
+}
+
+figcaption {
+    font-size: 0.75em;
+    opacity: 0.75;
+    margin-bottom: 0.75rem;
+}
+
+.article-header {
+    font-family: 'HackBold';
+    font-size: 1.25rem;
+    color: #2B2E36;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding: 0.45rem;
+    background-color: #E7E8EF;
+    border-radius: 4px;
+}
+
+.site-footer {
+    margin-top: 3rem;
+    padding-top: 1rem;
+    border-top: 1px solid #E7E8EF;
+    text-align: center;
+    font-size: 0.9em;
+    opacity: 0.8;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+    background-color: #000000;
+    padding: 0px;
+}
+
+.video-container iframe {
+    border: 0px solid #5B6270;
+    padding: 0px;
 }

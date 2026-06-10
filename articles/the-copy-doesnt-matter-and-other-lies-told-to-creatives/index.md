@@ -1,0 +1,198 @@
+---
+title: "'The Copy Doesn't Matter'​ and Other Lies Told to Creatives"
+written: 2021-02-17
+published: 2021-02-21
+type: linkedin
+source: linkedin
+---
+
+Half a decade ago, I was sitting in the conference room of one of New
+Hampshire's premiere ad agencies with the VP of Accounts and our
+Creative Director. We were reviewing the in-progress website for a
+luxury boutique hotel opening in the Adirondacks. When the time came to
+review my copy, the Creative Director glanced up at the content on the
+big-screen display, then looked directly at me --- *through* me, really
+--- and said: "Who gives a shit about the copy. No one reads it." He
+offered no other feedback and stared at his phone for the remainder of
+the meeting.
+
+I'm able to recall this episode in detail five years later because
+it's indelibly etched into my mind. For someone who regularly loses his
+slippers and leaves yogurt out on the kitchen counter overnight, my
+long-term memory can be a steel trap when it wants to be. And this
+defining moment in my career is a prime example.
+
+> \...the wholesale rejection of content before reading a word of it was
+> a new, crushing professional experience for me.
+
+Meditating on the experience now, it's not the unprovoked hostility of
+the statement that sticks with me, but the absence of any doubt in the
+Creative Director's voice as he said it. He spoke as though of *course*
+the copy doesn't matter. And, by extension, all of the work associated
+with writing the copy --- including the tens of thousands of dollars the
+hotel's owners spent on branding research to develop a specialized
+vocabulary, buyer personas, and vernacular to guide our agency's
+content --- was all so much fluff to be copy-pasted into the site.
+
+Professional creatives face criticism every day; it's a fundamental
+part of the job. But the wholesale rejection of content before reading a
+word of it was a new, crushing professional experience for me. This was
+a dream project, one of the agency's few accounts with real prestige
+behind it. It was a *Mad Men*-esque portfolio trophy I was excited to
+work on. And all it took was two terse sentences to snuff out that
+enthusiasm and reduce my work and the work of a separate talented
+branding agency to little more than filler stuffed between website
+elements.
+
+I survived for six months at this particular agency which, judging by
+the edits made to their staff page over the following year, was a pretty
+decent run in that position: The shortest a writer survived there was
+less than four weeks. Few made it past nine months. The writer I
+replaced had made it to just barely a year before fleeing to southeast
+Asia on a whirlwind tour of the region --- perhaps an omen I should've
+heeded.
+
+> "I've never seen a company do this to someone," opined a former
+> colleague over a beer.
+
+In a cruel twist of fate, I was unceremoniously canned the day I
+returned from my honeymoon. "If you're wondering why we're letting
+you go," the VP of Accounts explained to me in a singsong voice,
+"it's because \[regional pest control company\] weren't happy with
+your blogs." Apparently this particular pest control company did, in
+fact, "give a shit" about the copy we were providing them.
+
+Of course, I'd written the articles weeks in advance, and they'd been
+approved by both Creative Director and the pest company liaison. The
+articles were posted while my wife and I cruised down the Pacific Coast
+Highway through Big Sur, blissfully unaware the opening for my job had
+been posted to Indeed the day before my wedding. "I've never seen a
+company do this to someone," opined a former colleague over a beer.
+
+My sacking was not enough to appease the management, however: A VP, a
+frontend developer, and a junior account manager were also let go within
+a few weeks for various degrees of perceived incompetence. (The junior
+account manager had mistakenly lit the new kitchen toaster oven on fire,
+smoking out the office and annoying the management).
+
+So what can you take away from this gutting experience? There are five
+key lessons:
+
+### **1. Nurture Your Team's Enthusiasm, Don't Crush It**
+
+Having helmed several content teams at this point, I can't overstate
+how important it is to nurture enthusiasm when you find it within your
+team. Enthusiasm is one of those elusive qualities that's hard to
+inspire within people, can easily be snuffed out even when you recognize
+it, but can elevate content from shlock to inspired masterpiece.
+
+When you find a spark of enthusiasm in your team, do everything you can
+to nurture and guide it--- but don't stamp it out. I'll choose an
+enthusiastic, less experienced writer or designer over a jaded content
+churner any day of the week.
+
+> Much like the air you breathe, your car's brakes, and engaging in
+> small talk without a mask on, you'll only notice masterful copy when
+> it's absent.
+
+### **2. Don't Write Off the Copy**
+
+Much like enthusiasm, copy is a kind of miracle material. When it's
+written poorly, it's fatally obvious and can torpedo an entire project.
+Yet when it's done masterfully, the reader hardly notices, as it
+shuttles them fluidly through the content while answering questions and
+eliminating any barriers to engagement. Much like the air you breathe,
+your car's brakes, and engaging in small talk without speaking through
+a mask, you'll only notice masterful copy when it's absent.
+
+### **3. Talented Creatives Are Not Dime-a-Dozen**
+
+There's this pervasive attitude among creative professionals at the
+start of their careers that they have to stick it out, pay their dues,
+and endure the torrent of abuse, bad feedback ("Make it pop!"), and
+disregard for their craft, lest they be replaced by a hungrier creative
+("You should be thankful to be making pennies doing what you love!").
+
+> Know what you're worth and bail on places that don't acknowledge
+> that value.
+
+Every trade has forms of dues-paying, of course. But my anecdote
+reflects the fact that some organizations will take advantage of this
+attitude and use it to justify low pay, demeaning working conditions,
+and uncertain job security. Know what you're worth and bail on places
+that don't acknowledge that value. You might think you can't afford
+it, but the damage to your mental health and future career prospects
+from this predatory behavior are incalculable.
+
+### **4. Toxic Management Drives Talent Away**
+
+If you couldn't already tell, yes, this ad agency was incredibly toxic
+and had no dedicated HR person on the payroll. They churned though
+hardworking creatives like a cell phone store churns through sales reps.
+Speaking with former colleagues, it's clear now the Creative Director
+is a petty tyrant enabled by management to rule the office in cruel and
+arbitrary ways. Here is a curated selection of his shenanigans:
+
+- He loudly and publicly chided our SEO Analyst for getting a vasectomy
+  on several different occasions, once in front of a client.
+- He point-blank asked me if I "voted for liberals" in my job
+  interview because of my public radio work.
+- He believed his labradoodle could speak to him when he ingested
+  psychoactive substances and would discuss this belief and his drug use
+  with employees.
+- On his 30th birthday, his girlfriend decorated his office to surprise
+  him. When he arrived, he tore the decorations down while berating said
+  girlfriend in front of the office for appearing unprofessional.
+- After he proposed to his girlfriend, he complained numerous times to
+  employees that it was "bullshit" his future father-in-law had only
+  gifted him a new Harley Davidson V-twin cruiser and not an additional
+  lump sum of money as a dowry.
+- The morning I was fired, he seemed to relish interrogating me about my
+  honeymoon, asking for details about where we went, if I liked the west
+  coast, if I'd go back some day. All this before saying, with an
+  ear-to-ear grin, "By the way, \[the owner\] wants to speak to you,"
+  and walking me into the conference room to be let go.
+
+If this sounds like a creative environment no person would want to work
+in, you are correct! In the conversations I've since had with former
+co-workers, all of them pointed to this person as the primary cause for
+either leaving or wanting to leave the company. Many of them have since
+departed. My father-in-law, someone with decades of experience building
+and leading HR departments, was left speechless as I relayed these
+incidents to him over dinner.
+
+### **5. Some Disfunction Is Normal, Toxicity Is Not**
+
+All organizations experience some level of disfunction. That is simply
+the nature of trying to coordinate a group of people to achieve a common
+goal. But when bullying, gaslighting, and manipulation are allowed to
+flourish, it will inevitably come to light and damage people and
+organizations. From the boardrooms of Uber and Samsung, to federal
+agencies, and even a tiny New England ad agency, it never pays in the
+long run to suffer the whims of vicious managers.
+
+### **A Painful but Necessary Learning Experience**
+
+I'm reading *Zen and the Art of Motorcycle Maintenance* for the first
+time this winter and it contains a riveting discussion of how we
+perceive quality; what is good writing versus bad, good design versus
+bad, etc. The author argues our life experiences are the driving force
+behind it all and that quality is where our experiences meet with what
+we encounter in the world. Some artisans can pick up a tool and discern
+its quality from the way it feels in their hands. Certain producers can
+tell if a script is the right length just by picking it up, and so on.
+
+> \...a six-month bid working for a tyrannical Creative Director and his
+> talking labradoodle has proven worth it.
+
+Had I not spent half a year at this cursed ad agency, I'd never fully
+appreciate what it's like to work under competent leadership and
+collaborate with people who are passionate about their creations. In the
+same way, you can't fully appreciate a warm summer day here in New
+England without experiencing how cold, miserable, and dark our winters
+can be. You need to experience the lows to appreciate the highs.
+
+So too can I now fully appreciate the difference between a place I want
+to work and an organization that will gleefully crush my soul if given
+the chance. In that context, a six-month bid working for a tyrannical
+Creative Director and his talking labradoodle has proven worth it.

@@ -5,6 +5,7 @@ from datetime import datetime
 import re
 import subprocess
 import sys
+from datetime import datetime
 
 ROOT = Path(__file__).resolve().parents[1]
 HEADER_PATH = ROOT / "templates" / "site-header.html"
@@ -75,19 +76,48 @@ def build(article_dir):
 
     html = html_path.read_text(encoding="utf-8")
     site_header = HEADER_PATH.read_text(encoding="utf-8")
+    from datetime import datetime
+
+    footer = (
+        ROOT / "templates" / "site-footer.html"
+    ).read_text(encoding="utf-8")
+
+    footer = footer.replace(
+        "{{YEAR}}",
+        str(datetime.now().year)
+    )
 
     html = html.replace("<body>", "<body>\n" + site_header, 1)
 
-    html = html.replace(
-        f'<h1 class="title">{title}</h1>',
+    # H1 to title heading
+    html = re.sub(
+        r'<h1 class="title">.*?</h1>',
         f'<p class="article-date">{display_date(written)}</p>\n'
         f'<h1 class="title">{title}</h1>\n'
         f'<hr>',
-        1,
+        html,
+        count=1,
+        flags=re.S,
     )
 
     # Remove duplicate title if the source document also began with a bold title.
     html = html.replace(f"<p><strong>{title}</strong></p>", "", 1)
+
+    # Headings to div headers
+    # Headings to div headers
+    html = re.sub(
+        r"<h[23][^>]*>(.*?)</h[23]>",
+        r'<div class="article-header">\1</div>',
+        html,
+        flags=re.S
+    )
+
+    # Footer
+    html = html.replace(
+        "</body>",
+        footer + "\n</body>",
+        1
+    )
 
     html_path.write_text(html, encoding="utf-8")
     print(f"Built {html_path}")

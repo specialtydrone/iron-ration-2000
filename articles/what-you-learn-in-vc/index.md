@@ -84,7 +84,7 @@ mechanical way such things are meant to function.
 My time in VC and journalism have permanently altered the way I view the
 world and my work.
 
-## Vision Versus Reality
+### Vision Versus Reality
 
 ![Apple Vision
 Pro](https://media.licdn.com/dms/image/v2/D4E12AQEXrPLDeKvzpg/article-inline_image-shrink_1500_2232/article-inline_image-shrink_1500_2232/0/1707490990050?e=1782345600&v=beta&t=Al6RAJvg0jdk_PRXwmfGJNr5YAED0rnmHAnUZ2BLB68){media-urn="urn:li:digitalmediaAsset:D4E12AQEXrPLDeKvzpg"}
@@ -150,4 +150,3 @@ and content creation to the table.
 
 **If you know of any organization looking for expertise in these areas
 and wants to hire a specialist with my skillset, let me know.**
-:::
