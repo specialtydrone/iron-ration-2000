@@ -120,6 +120,10 @@ def main():
     html = replace_site_header(html)
     html = replace_site_footer(html)
 
+    # Clean up whitespace
+    # Collapse excessive blank lines in generated index.html.
+    html = re.sub(r"\n{3,}", "\n\n", html)
+
     if START in html and END in html:
         pattern = re.compile(f"{re.escape(START)}.*?{re.escape(END)}", re.S)
         html = pattern.sub(writing_list, html)

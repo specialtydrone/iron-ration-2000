@@ -149,7 +149,7 @@ img {
 }
 
 .writing-date {
-    width: 11em;
+    width: 11.75em;
     flex-shrink: 0;
     opacity: 0.75;
 }
@@ -207,7 +207,7 @@ figcaption {
     margin-bottom: 1rem;
     padding: 0.45rem;
     background-color: #E7E8EF;
-    border-radius: 4px;
+    border-radius: 0px;
 }
 
 .site-footer {

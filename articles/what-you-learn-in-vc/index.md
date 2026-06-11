@@ -5,6 +5,7 @@ published: 2024-02-09
 type: linkedin
 source: linkedin
 ---
+![Boiler Room (2000)](media/boiler-room.png)
 
 It's been about five months since my two-year tour in venture capital
 ended and about three weeks since the 3D printing company I joined
@@ -22,8 +23,7 @@ experiences from my adventure in private equity.
 
 ## A Team to Die For
 
-![The
-Bear](https://media.licdn.com/dms/image/v2/D4E12AQH7uzMmA7Atyw/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1705611656709?e=1782345600&v=beta&t=BZTIFiNjbXe25-R3tXDRUdl37lkTNcK2JkHg3fjRKU8){media-urn="urn:li:digitalmediaAsset:D4E12AQH7uzMmA7Atyw"}
+![The Bear](media/the-bear.jpeg)
 
 In *Kitchen Confidential*, Anthony Bourdain describes the staff of a
 rival kitchen whose cohesion, intimacy, and ability to operate with
@@ -56,8 +56,7 @@ Bullpen gang 4 life. You know who you are.
 
 ## Companies as Cuts of Beef
 
-![Gangs of New
-York](https://media.licdn.com/dms/image/v2/D4E12AQErCBsBzGyLbA/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1707323820492?e=1782345600&v=beta&t=-IvFzsZBBdIA37jnLz44KO8ysBja13cgo1XnMyfT5EQ){media-urn="urn:li:digitalmediaAsset:D4E12AQErCBsBzGyLbA"}
+![Gangs of New York (2002)](media/gangs-new-york.jpeg)
 
 In private equity and VC specifically, you learn to look at businesses
 the way a butcher looks at a cut of beef or a mechanic looks at a car
@@ -86,8 +85,7 @@ world and my work.
 
 ### Vision Versus Reality
 
-![Apple Vision
-Pro](https://media.licdn.com/dms/image/v2/D4E12AQEXrPLDeKvzpg/article-inline_image-shrink_1500_2232/article-inline_image-shrink_1500_2232/0/1707490990050?e=1782345600&v=beta&t=Al6RAJvg0jdk_PRXwmfGJNr5YAED0rnmHAnUZ2BLB68){media-urn="urn:li:digitalmediaAsset:D4E12AQEXrPLDeKvzpg"}
+![Apple Vision Pro](media/apple-vision-pro.jpeg)
 
 You can dress up the mechanics of venture capital however you want but
 it is fundamentally speculation.
@@ -128,7 +126,7 @@ haven't fundamentally reshaped the world.
 
 ## Life After Private Equity
 
-![Beetlejuice](https://media.licdn.com/dms/image/v2/D4E12AQGe3vBqC4QrZQ/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1707325291743?e=1782345600&v=beta&t=fuQSF59VmsvACBAZMmgAGzQyUPjJc53Wghat9DJ-CWQ){media-urn="urn:li:digitalmediaAsset:D4E12AQGe3vBqC4QrZQ"}
+![Beetlejuice (1988)](media/recently-deceased.jpeg)
 
 It's been hard to stop writing about computer-brain interfaces,
 commercial rocket launches, billion-dollar acquisitions, and quantum
