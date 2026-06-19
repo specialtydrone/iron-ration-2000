@@ -6,6 +6,8 @@ type: linkedin
 source: linkedin
 ---
 
+![](media/sunset-clouds.jpeg)
+
 This summer will mark a full decade that I've been writing about
 technology, games, and politics. But of all the topics I've covered,
 the games industry has always been the the funnest to document and
@@ -27,15 +29,12 @@ particularly interesting. Long story short, the primary gameplay loop of
 faster to kill more dudes the fastest' is stale and not particularly
 engaging and, at times, wholly infuriating.
 
- {.slate-resizable-image-embed .slate-image-embed__resize-full-width}
-![No alt text provided for this
-image](https://media.licdn.com/dms/image/v2/C4E12AQH05iUibhBbgg/article-inline_image-shrink_1500_2232/article-inline_image-shrink_1500_2232/0/1585154974586?e=1782345600&v=beta&t=fvci24DIBymKidj3iLLZhoBZtCsRnqsWtc1fDCJamoo){media-urn="urn:li:digitalmediaAsset:C4E12AQH05iUibhBbgg"}
-
+![](media/standing-in-road.jpeg)
 
 But looking past the product's flaws and at the design philosophy of
 the product itself is where things get interesting. Breakpoint follows a
 familiar Ubisoft template: A large open world ripe for players to
-explore and wreck havoc upon at their leisure. Like Far Cry, Assassins
+explore and wreak havoc upon at their leisure. Like Far Cry, Assassins
 Creed, and the Division, Breakpoint is a slick amusement park intended
 for a military simulation fetishist audience, of which I admit to
 tacitly being a member of.
@@ -57,10 +56,7 @@ being a squad-based tactical shooter without the trappings of random
 loot drops, gear levels, or mandatory co-op, and it largely worked for
 me, despite a few nitpicks.
 
- {.slate-resizable-image-embed .slate-image-embed__resize-full-width}
-![No alt text provided for this
-image](https://media.licdn.com/dms/image/v2/C4E12AQEc2hL3OTHZwA/article-inline_image-shrink_1500_2232/article-inline_image-shrink_1500_2232/0/1585155007674?e=1782345600&v=beta&t=IPRBzDZfbwKCUyKJZmHT2b6Gk303TASGPDF-O1fJy7k){media-urn="urn:li:digitalmediaAsset:C4E12AQEc2hL3OTHZwA"}
-
+![](media/boot-stats.jpeg)
 
 But when it comes to the unfortunately-titled Breakpoint, the formula
 was too thin to hide the hollow game underneath. Skinner boxes work on
@@ -79,10 +75,7 @@ their creations. Recon, on the other hand, is content to dispense with
 any meaningful player contributions to the world except for capping
 generic mercenaries, who will later respawn anyway.
 
- {.slate-resizable-image-embed .slate-image-embed__resize-full-width}
-![No alt text provided for this
-image](https://media.licdn.com/dms/image/v2/C4E12AQGFd6XpC8WoGw/article-inline_image-shrink_1500_2232/article-inline_image-shrink_1500_2232/0/1585155387135?e=1782345600&v=beta&t=g6_wBF99VvCMY8p3NhPlvKPmKUIWEw0m03ihfcb1qVY){media-urn="urn:li:digitalmediaAsset:C4E12AQGFd6XpC8WoGw"}
-
+![](media/sitting-cross-legged.jpeg)
 
 While there are cuss-laden write-ups about Breakpoint, the reality is
 that I'm simply disappointed with its execution. There are glimmers of
@@ -98,9 +91,3 @@ eight hours left of my time before I uninstall this fundamentally broken
 mess. The only confidence I feel about this game is that I'll be able
 to get around 50 gigabytes of space back from my SSD for another game
 that respects my time.
-
-\
-
-\
-
-\
