@@ -235,3 +235,9 @@ li {
     border: 0px solid #5B6270;
     padding: 0px;
 }
+
+img,
+iframe,
+video {
+    max-width: 100%;
+}
