@@ -242,3 +242,10 @@ iframe,
 video {
     max-width: 100%;
 }
+
+@media (max-width: 650px) {
+    .writing-entry {
+        display: block;
+        margin-bottom: 0.75rem;
+    }
+}
