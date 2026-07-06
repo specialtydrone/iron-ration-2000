@@ -7,10 +7,17 @@ body {
 }
 
 html {
+    box-sizing: border-box;
     max-width: 900px;
     margin: 0 auto;
+    padding: 0 1rem;
+    overflow-y: scroll;
     -webkit-text-size-adjust: 100%;
     text-size-adjust: 100%;
+}
+
+* {
+    box-sizing: inherit;
 }
 
 * {
